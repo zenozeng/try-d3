@@ -29,6 +29,17 @@ https://github.com/mbostock/d3/wiki/API-Reference
 - 语义化版本
 
     http://semver.org/lang/zh-CN/
+    
+- Nested Selections
+
+    http://bost.ocks.org/mike/nest/#index
+
+## 注意点
+
+- selections are grouped: rather than a one-dimensional array, each selection is an array of arrays of elements. 
+
+    [Array[1], select: function, selectAll: function, attr: function, classed: function, style: function…]
+ 
 
 ## FAQ
 
